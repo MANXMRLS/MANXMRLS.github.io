@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Styles.css">
+    <title>MUNDO PC</title>
+
+</head>
+<body>
+    <!-- Sección encabezado -->
+    <header class="header">
+        <a href="Index.html" class="logo"><img src="imagen/1MUNDOPC.jpg"></a>
+        <h1>MUNDO PC</h1>
+        <nav class="navbar">
+        <span class="icon" onclick="toggleMenu()">&#9776 </span>
+        <ul class="menu" id="menu">
+        <li><a href="Index.html">INICIO</a></li>
+        <li><a href="productos.html">CATALOGO</a></li>
+        <li><a href="contacto.html">CONTACTO</a></li>
+        </ul>
+        </nav>        
+    </header>
+
+    <!-- Sección de contenido principal-->
+    <main>
+        <h1>Catálogo de Productos</h1>
+        <div class="catalogo">
+            <!-- Producto 1 -->
+            <div class="producto">
+                <img src="imagen/MINECRAFT.jpg" alt="Producto 1">
+                <div class="producto-info">
+                    <h2>MINECRAFT</h2>
+                    <p>Crea todo lo que tu mente pueda crear.</p>
+                    <p class="precio">$850.00 MXN</p>
+                </div>
+            </div>
+    
+            <!-- Producto 2 -->
+            <div class="producto">
+                <img src="imagen/Theforest.jpeg" alt="Producto 2">
+                <div class="producto-info">
+                    <h2>SONS OF THE FOREST</h2>
+                    <p>Crea, construye y lucha por sobrevivir.</p>
+                    <p class="precio">$120.00 MXN</p>
+                </div>
+            </div>
+    
+            <!-- Producto 3 -->
+            <div class="producto">
+                <img src="imagen/THELAST.jpg" alt="Producto 3">
+                <div class="producto-info">
+                    <h2>THE LAST OF US P2</h2>
+                    <p>Descubre la historia de Ellie y Abby con mejoras gráficas.</p>
+                    <p class="precio">$120.00 MXN</p>
+                </div>
+            </div>
+    
+            <!-- Producto 4 -->
+            <div class="producto">
+                <img src="imagen/HALO.jpg" alt="Producto 4">
+                <div class="producto-info">
+                    <h2>HALO: MASTERCHIEF COLLECTION</h2>
+                    <p>Coleccion de 6 juegos clasicos de HALO.</p>
+                    <p class="precio">$800.00 MXN</p>
+                </div>
+            </div>
+
+            <!-- Producto 5 -->
+            <div class="producto">
+                <img src="imagen/CYBERPUNK.jpg" alt="Producto 4">
+                <div class="producto-info">
+                    <h2>CYBERPUNK</h2>
+                    <p>RPG de aventura y acción de mundo abierto.</p>
+                    <p class="precio">$1799.00 MXN</p>
+                </div>
+            </div>
+            <!-- Producto 6 -->
+            <div class="producto">
+                <img src="imagen/DEADBY.jpg" alt="Producto 4">
+                <div class="producto-info">
+                    <h2>DEAD BY DAYLIGHT 4</h2>
+                    <p>Dead by Daylight es un juego de horror de multijugador.</p>
+                    <p class="precio">$299.00 MXN</p>
+                </div>
+            </div>
+            <!-- Producto 7 -->
+            <div class="producto">
+                <img src="imagen/devilman.jpg" alt="Producto 4">
+                <div class="producto-info">
+                    <h2>DEVILMAY CRY 5</h2>
+                    <p>El cazademonios definitivo vuelve con estilo</p>
+                    <p class="precio">$390.00 MXN</p>
+                </div>
+            </div>
+            <!-- Producto 8 -->
+            <div class="producto">
+                <img src="imagen/DESTINY.jpg" alt="Producto 4">
+                <div class="producto-info">
+                    <h2>DESTINY 2</h2>
+                    <p>Destiny 2 es un MMO de acción con un mundo único y dinámico </p>
+                    <p class="precio">$1.00 MXN</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Sección de Pie de pagina -->
+    <footer>
+        <p>&copy; 2025 MUNDOPC Todos los derechos reservados.</p>
+        <div class="redes-sociales">
+            <a href="#" target="_blank">Facebook</a> |
+            <a href="#" target="_blank">Twitter</a> |
+            <a href="#" target="_blank">Instagram</a>
+        </div>
+        <p>Contacto: MUNDOPC@GMAIL.COM</p>
+    </footer>
+
+    <!-- script Codigo de JavaScript -->
+    <script>
+        // Función para mostrar u ocultar el menú en móviles
+        function toggleMenu() {
+        const menu = document.getElementById("menu");
+        menu.classList.toggle("responsive");
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MUNDO PC</title>
+    <link rel="stylesheet" href="Styles.css">
+</head>
+<body>
+    <!-- Sección encabezado -->
+    <header class="header">
+        <a href="Index.html" class="logo"><img src="imagen/1MUNDOPC.jpg"></a>
+        <h1>MUNDO PC</h1>
+        <nav class="navbar">
+        <span class="icon" onclick="toggleMenu()">&#9776 </span>
+        <ul class="menu" id="menu">
+        <li><a href="Index.html">INICIO</a></li>
+        <li><a href="productos.html">CATALOGO</a></li>
+        <li><a href="contacto.html">CONTACTOS</a></li>
+        </ul>
+        </nav>        
+    </header>
+
+    <!-- Sección de contenido principal-->
+    <main>
+        <!-- Sección de la empresa -->
+        <section id="empresa" class="columnas">
+            <div>
+                <img src="imagen/1MUNDOPC.jpg" alt="quienes_somos" height="200" width="200">
+            </div>
+            <div class="">
+                <h2>JUEGOS Y MAS</h2>
+                <p>DESCUBRE NUEVOS TITULOS Y OBTEN HORAS DE DIVERSION</p>    
+            </div>
+        </section>
+        <!-- Sección de Promociones -->
+        <section id="promocion">
+            <h2>PROMOCIONES 2x1</h2>
+            <p>¡En la compra de MINECRAFT te llevas el juego SONS OF THE FOREST de regalo!</p>
+            <div class="catalogo">
+                <!-- promocion 1 -->
+                <div class="producto">
+                    <img src="imagen/MINECRAFT.jpg" alt="Producto 1" >
+                    <div class="producto-info">
+                        <h2>MINECRAFT</h2>
+                        <p>Crea todo lo que tu mente pueda imaginar.</p>
+                        <p class="precio">$850.00 MXN</p>
+                    </div>
+                </div>
+                <!-- promocion 2 -->
+                <div class="producto">
+                    <img src="imagen/Theforest.jpeg" alt="Producto 2">
+                    <div class="producto-info">
+                        <h2>Sons of the forest</h2>
+                        <p>Crea, construye y lucha por sobrevivir.</p>
+                        <p class="precio">$00.00 MXN</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Sección de Servicios y Precios -->
+        <section id="servicios" class="columnas">
+            <div class="izquierda">
+                <h2>Servicios y Precios</h2>
+                <ul>
+                    <li>(BLOODSTRIKE) Recarga de Oro por minimo 17.00 mxn</li>
+                    <li>(ROBLOX) Recarga de Robux por minimo 17.00 mxn</li>
+                    <li>(Genshin Impact) Cristales Genesis por minimo 25.00 mxn</li>
+                    <li>(OTROS) mas informacion</li>
+                    <!-- Agregar más servicios según sea necesario -->
+                </ul>
+            </div>
+            <div class="derecha">
+                <img src="imagen/Friv.jpg" alt="Servicio" height="150" width="150">
+            </div>
+        </section
+
+        <!-- Sección de Marcas -->
+        <section id="marcas">
+            <h2>Nuestras Marcas</h2>
+            <div class="brands">
+                <img src="imagen/FUMA.jpg" alt="Marca 1" >
+                <img src="imagen/kike.jpg" alt="Marca 2">
+                <img src="imagen/adidos.jpg" alt="Marca 3">
+                <img src="imagen/laacoste.jpg" alt="Marca 4">
+            </div>
+        </section>
+    </main>
+
+    <!-- Sección de Pie de pagina -->
+    <footer>
+        <p>&copy; 2025 MUNDOPC Todos los derechos reservados.</p>
+        <div class="redes-sociales">
+            <a href="#" target="_blank">Facebook</a> |
+            <a href="#" target="_blank">Twitter</a> |
+            <a href="#" target="_blank">Instagram</a>
+        </div>
+        <p>Contacto: MUNDOPC@GMAIL.COM</p>
+    </footer>
+
+    <!-- script Codigo de JavaScript -->
+    <script>
+        // Función para mostrar u ocultar el menú en móviles
+        function toggleMenu() {
+          const menu = document.getElementById("menu");
+          menu.classList.toggle("responsive");
+        }
+      </script>
+</body>
+</html>
